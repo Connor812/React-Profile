@@ -5,6 +5,7 @@ export default function Contact() {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [formError, setFormError] = useState('');
+    const [formSuccess, setFormSuccess] = useState(false);
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -24,6 +25,7 @@ export default function Contact() {
 
         // All fields are valid, submit form
         console.log('Submitting form', { name, email, message });
+        setFormSuccess(true);
     }
 
     return (
@@ -31,6 +33,7 @@ export default function Contact() {
             <h1>Contact Page</h1>
             <form onSubmit={handleSubmit}>
                 {formError && <div className="alert alert-danger">{formError}</div>}
+                {formSuccess && <div className="alert alert-success">Email has been sent!</div>}
                 <div className="mb-3">
                     <label htmlFor="name" className="form-label">Name</label>
                     <input type="text" className="form-control" id="name" value={name} onChange={(event) => setName(event.target.value)} />
