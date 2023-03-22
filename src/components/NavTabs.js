@@ -1,36 +1,33 @@
 import React from 'react';
+import '../styles/navbar.css'
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <nav className='nav-bar'>
+      <div className='title'>
+        Connor
+      </div>
+      <div className='links'>
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
           Home
         </a>
-      </li>
-      <li className="nav-item">
         <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          href="#Profolio"
+          onClick={() => handlePageChange('Profolio')}
         >
-          About
+          Profolio
         </a>
-      </li>
-      <li className="nav-item">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
         </a>
-      </li>
-    </ul>
+      </div>
+    </nav>
   );
 }
 
