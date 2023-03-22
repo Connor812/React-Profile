@@ -25,6 +25,7 @@ export default function Contact() {
 
         // All fields are valid, submit form
         console.log('Submitting form', { name, email, message });
+        setFormError('');
         setFormSuccess(true);
     }
 
