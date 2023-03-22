@@ -1,5 +1,6 @@
 import React from 'react';
-import profileImg from '../../assets/images/profile-picture.jpg'
+import profileImg from '../../assets/images/profile-picture.jpg';
+import '../../styles/home.css';
 
 export default function Home() {
     return (

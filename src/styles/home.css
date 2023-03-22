@@ -1,0 +1,31 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-box  {
+    background-color: blue;
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.about-me {
+    font-size: 40px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 30px;
+}
+
+.description {
+    padding: 20px;
+}
+
+.description div {
+    font-size: 20px;
+    margin: 5px;
+}
