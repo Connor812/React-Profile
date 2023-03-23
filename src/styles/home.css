@@ -1,10 +1,18 @@
+:root {
+    --background: #26242261;
+    --black: #262422;
+    --blue: #3C92E6;
+    --white: #dbdbdb;
+    --grey: #393939;
+}
+
 .center {
     display: flex;
     justify-content: center;
 }
 
 .about-me-box  {
-    background-color: blue;
+    background-color: var(--background);
     width: 80%;
     margin: 20px;
     padding: 20px;
