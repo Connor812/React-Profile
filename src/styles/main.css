@@ -9,7 +9,8 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(180deg, rgba(22,21,20,1) 0%, rgb(21, 20, 57) 100%);
+    background: linear-gradient(180deg, rgba(22,21,20,1) 0%, rgb(6, 13, 51) 100%);
     background-attachment: fixed;
-    color: var(--white)
+    color: var(--white);
+    position: relative;
 }
