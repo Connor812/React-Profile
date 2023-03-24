@@ -21,7 +21,13 @@ function NavTabs({ currentPage, handlePageChange }) {
           Profolio
         </a>
         <a
-          href="#contact"
+          href="#Resume"
+          onClick={() => handlePageChange('Resume')}
+        >
+          Resume
+        </a>
+        <a
+          href="#Contact"
           onClick={() => handlePageChange('Contact')}
         >
           Contact
