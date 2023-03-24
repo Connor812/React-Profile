@@ -15,6 +15,7 @@
     background-color: var(--background);
     max-width: 1480px;
     margin: 20px;
+    margin-bottom: 150px;
     padding: 20px;
 }
 
@@ -40,7 +41,6 @@
 
 .display-btn:hover .project-img {
     opacity: 0.6;
-    border: 5px solid black;
 }
 
 /* GitHub SVG ----------------- */
@@ -102,8 +102,8 @@
     position: absolute;
     bottom: 0;
     left: 10px;
-    font-size: clamp(16px, 3vmin, 36px);
-    background-color: #2624229c;
+    font-size: clamp(16px, 3vmin, 46px);
+    background-color: #262422a8;
     padding: 8px;
 }
 
