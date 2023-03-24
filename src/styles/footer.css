@@ -1,0 +1,34 @@
+.footer-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* For all social-links in the footer */
+
+.social-links {
+    fill: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.social-links {
+    transition: 0.3s;
+}
+
+.social-links:hover path {
+    fill: url(#grad);
+  }
+  
+  #grad stop:first-child {
+    stop-color: rgba(60, 146, 230, 1);
+  }
+  
+  #grad stop:last-child {
+    stop-color: rgba(124, 0, 255, 1);
+  }
