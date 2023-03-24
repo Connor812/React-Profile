@@ -14,7 +14,7 @@ Hello everyone! My name is Connor Savoy and this is my profolio page! Here you f
 ## Where-to-Find🔌
 
 GitHub Repo: [Connor812](https://github.com/Connor812/React-Profile.git)
-Deployed Link: [Connor's React Profolio]()
+Deployed Link: [Connor's React Profolio](https://connor812.github.io/React-Profile/#home)
 
 ## Credits🙏🏻
 
