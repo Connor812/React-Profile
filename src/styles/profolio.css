@@ -13,7 +13,7 @@
 
 .profolio-container {
     background-color: var(--background);
-    width: 80%;
+    max-width: 1480px;
     margin: 20px;
     padding: 20px;
 }
@@ -46,9 +46,12 @@
 /* GitHub SVG ----------------- */
 
 .github-btn {
+    --github-button-size: 96px;
     position: absolute;
     top: 25%;
     left: 3%;
+    width: var(--github-button-size);
+    height: var(--github-button-size);
     background: none;
     border: none;
 }
@@ -58,7 +61,7 @@
     transition: 0.3s;
 }
 
-svg:hover path {
+.github-btn svg:hover path {
     fill: url(#grad);
   }
   
@@ -75,7 +78,7 @@ svg:hover path {
   .link-btn {
     background: none;
     border: none;
-    font-size: 2.5vw;
+    font-size: clamp(16px, 3vmin, 36px);
     position: absolute;
     top: 11%;
     left: 3%;
@@ -97,13 +100,17 @@ svg:hover path {
 
 .project-name {
     position: absolute;
-    top: 412px;
+    bottom: 0;
     left: 10px;
-    font-size: 3vmax;
+    font-size: clamp(16px, 3vmin, 36px);
     background-color: #2624229c;
     padding: 8px;
 }
 
-
+@media screen and (max-width: 1024px) {
+    .github-btn {
+        --github-button-size: 50px;
+    }
+}
 
 
