@@ -1,0 +1,33 @@
+:root {
+  --background: #26242261;
+  --black: #262422;
+  --blue: #3C92E6;
+  --white: #dbdbdb;
+  --grey: #393939;
+}
+
+/* Resume Button */
+
+.resume svg {
+    width: 10vh;
+    transition: 0.3s;
+}
+
+.resume:hover path {
+    fill: url(#grad);
+  }
+  
+  #grad stop:first-child {
+    stop-color: rgba(60, 146, 230, 1);
+  }
+  
+  #grad stop:last-child {
+    stop-color: rgba(124, 0, 255, 1);
+  }
+
+.resume-description {
+  width: 80%;
+  padding: 20px;
+  margin: 20px;
+  background-color: var(--background);
+}
