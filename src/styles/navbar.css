@@ -75,3 +75,33 @@
   width: 110%;
   height: 120%;
 }
+
+@media screen and (max-width: 866px) {
+  .nav-bar {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(90deg, rgba(60, 146, 230, 1) 0%, rgba(124, 0, 255, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .title {
+    font-size: 60px;
+    margin: 0px;
+    padding: 10px;
+    float: left;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .links a {
+    color: var(--white);
+    font-size: 17px;
+    margin: 6px;
+  }
+
+}
