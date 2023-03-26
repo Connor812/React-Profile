@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../styles/resume.css';
-import ConnorsResume from "../../assets/resume/Connor's-Resume.docx";
+import '../styles/resume.css';
+import ConnorsResume from "../assets/resume/Connor's-Resume.docx";
 
 
 

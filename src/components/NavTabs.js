@@ -15,10 +15,10 @@ function NavTabs({ currentPage, handlePageChange }) {
           Home
         </a>
         <a
-          href="#Protfilio"
+          href="#Portfolio"
           onClick={() => handlePageChange('Portfolio')}
         >
-          protfilio
+          Portfolio
         </a>
         <a
           href="#Resume"

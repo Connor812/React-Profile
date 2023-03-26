@@ -9,11 +9,13 @@ Hello everyone! My name is Connor Savoy and this is my protfilio page! Here you 
 - [Where to Find](#Where-to-Find🔌)
 - [Credits](#credits🙏🏻)
 - [License](#license🔑)
+- [Contact](#Contact)
 - [Screenshot](#screenshot📸)
 
 ## Where-to-Find🔌
 
 GitHub Repo: [Connor812](https://github.com/Connor812/React-Profile.git)
+
 Deployed Link: [Connor's React protfilio](https://connor812.github.io/React-Profile/#home)
 
 ## Credits🙏🏻
@@ -36,10 +38,20 @@ Photo by <a href="https://unsplash.com/@viniciusamano?utm_source=unsplash&utm_me
   
 Photo by <a href="https://unsplash.com/@cdr6934?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Chris Ried</a> on <a href="https://unsplash.com/s/photos/technology?orientation=landscape&utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
-
 ## License🔑
 
 [GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007](https://www.gnu.org/licenses)
+
+# Contact
+
+Email: connorsavoy812@gmail.com
+
+Phone: [519-403-8039]()
+
+LinkedIn: [Connor's LinkedIn](https://www.linkedin.com/in/connor-savoy-1103701ba/)
+
+Github: [Connor's Github](https://github.com/Connor812)
+
 
 ## Screenshot📸
 
