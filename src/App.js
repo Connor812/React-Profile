@@ -1,6 +1,6 @@
 import React from "react";
-import ProfolioContainer from "./components/ProfolioContainer"
+import PortfilioContainer from "./components/PortfilioContainer"
 
-const App = () => <ProfolioContainer /> 
+const App = () => <PortfilioContainer /> 
 
 export default App;

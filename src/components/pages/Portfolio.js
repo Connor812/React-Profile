@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/profolio.css';
+import '../../styles/protfilio.css';
 import Project_1 from '../../assets/images/project-1.jpg';
 import Project_2 from '../../assets/images/project-2.jpg';
 import Project_3 from '../../assets/images/project-3.jpg';
@@ -11,8 +11,8 @@ import Project_6 from '../../assets/images/project-6.jpg';
 export default function About() {
   return (
     <div className='center'>
-      <div className='profolio-container'>
-        <h1>Profolio</h1>
+      <div className='protfilio-container'>
+        <h1>Portfolio</h1>
         <p>
           Here are some of the projects I have created over the past 4 months at the University of Toronto Bootcamp!
         </p>

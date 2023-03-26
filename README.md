@@ -1,8 +1,8 @@
-# Connor's React Profolio [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# Connor's React protfilio [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description 📃
 
-Hello everyone! My name is Connor Savoy and this is my profolio page! Here you find some information about me, all of my social links, and a downloadable resume!
+Hello everyone! My name is Connor Savoy and this is my protfilio page! Here you find some information about me, all of my social links, and a downloadable resume!
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Hello everyone! My name is Connor Savoy and this is my profolio page! Here you f
 ## Where-to-Find🔌
 
 GitHub Repo: [Connor812](https://github.com/Connor812/React-Profile.git)
-Deployed Link: [Connor's React Profolio](https://connor812.github.io/React-Profile/#home)
+Deployed Link: [Connor's React protfilio](https://connor812.github.io/React-Profile/#home)
 
 ## Credits🙏🏻
 
