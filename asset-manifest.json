@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Profile/static/css/main.87ea9095.css",
-    "main.js": "/React-Profile/static/js/main.c988e220.js",
+    "main.css": "/React-Profile/static/css/main.d8e13887.css",
+    "main.js": "/React-Profile/static/js/main.387cbbd6.js",
     "static/media/project-4.jpg": "/React-Profile/static/media/project-4.d2ec4c3c9de4ee7e82b7.jpg",
     "static/media/project-5.jpg": "/React-Profile/static/media/project-5.41f61d005e89434247f0.jpg",
     "static/media/project-1.jpg": "/React-Profile/static/media/project-1.3192f8b8cc2d7fd0bf62.jpg",
@@ -11,11 +11,11 @@
     "static/media/project-6.jpg": "/React-Profile/static/media/project-6.0af82eb5f24d158d26d6.jpg",
     "static/media/Connor's-Resume.docx": "/React-Profile/static/media/Connor's-Resume.0324af98e044a0824cbb.docx",
     "index.html": "/React-Profile/index.html",
-    "main.87ea9095.css.map": "/React-Profile/static/css/main.87ea9095.css.map",
-    "main.c988e220.js.map": "/React-Profile/static/js/main.c988e220.js.map"
+    "main.d8e13887.css.map": "/React-Profile/static/css/main.d8e13887.css.map",
+    "main.387cbbd6.js.map": "/React-Profile/static/js/main.387cbbd6.js.map"
   },
   "entrypoints": [
-    "static/css/main.87ea9095.css",
-    "static/js/main.c988e220.js"
+    "static/css/main.d8e13887.css",
+    "static/js/main.387cbbd6.js"
   ]
 }
