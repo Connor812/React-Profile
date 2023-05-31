@@ -6,11 +6,10 @@
     --grey: #393939;
 }
 
-body {
+html, body {
     width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(180deg, rgba(22,21,20,1) 0%, rgb(6, 13, 51) 100%);
-    background-attachment: fixed;
+    height: 100vh;
+    background: var(--grey);
     color: var(--white);
-    position: relative;
+    
 }
