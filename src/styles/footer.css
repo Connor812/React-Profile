@@ -1,35 +1,53 @@
-.footer-container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    
+.footer {
+  margin-top: auto;
+  width: 100%;
+  height: auto;  
+  display: flex;
+  justify-content: center;
+  z-index: 1;
 }
 
-/* For all social-links in the footer */
-
-.social-links {
-    fill: white;
-    margin-left: 20px;
-    margin-right: 20px;
-    transition: 0.3s;
+.footer-icon-container {
+  font-size: 60px;
+  color: var(--white);
 }
 
-.social-links {
-    transition: 0.3s;
+.github-icon {
+  color: var(--white);
+  transition: 200ms;
+  margin: 3px;
 }
 
-.social-links:hover path {
-    fill: url(#grad);
-  }
-  
-  #grad stop:first-child {
-    stop-color: rgba(60, 146, 230, 1);
-  }
-  
-  #grad stop:last-child {
-    stop-color: rgba(124, 0, 255, 1);
-  }
+.insta-icon {
+  color: var(--white);
+  transition: 200ms;
+  margin: 3px;
+}
+
+.indeed-icon {
+  color: var(--white);
+  transition: 200ms;
+  margin: 3px;
+}
+
+.linkedin-icon {
+  color: var(--white);
+  transition: 200ms;
+  margin: 3px;
+}
+
+.github-icon:hover {
+  color: var(--purple);
+}
+
+.insta-icon:hover {
+  color: var(--purple);
+}
+
+.indeed-icon:hover {
+  color: var(--purple);
+}
+
+.linkedin-icon:hover {
+  color: var(--purple);
+}

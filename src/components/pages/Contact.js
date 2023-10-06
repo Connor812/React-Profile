@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
-import '../styles/contact.css';
+import '../../styles/contact.css';
+import FadeInSection from '../helpers/FadeInProps';
 
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
     const [name, setName] = useState('');
@@ -8,6 +11,7 @@ export default function Contact() {
     const [message, setMessage] = useState('');
     const [formError, setFormError] = useState('');
     const [formSuccess, setFormSuccess] = useState(false);
+    const form = useRef();
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -25,17 +29,26 @@ export default function Contact() {
             return;
         }
 
-        // All fields are valid, submit form
-        console.log('Submitting form', { name, email, message });
-        setFormError('');
-        setFormSuccess(true);
+        emailjs.sendForm(
+            process.env.REACT_APP_SERVICE_ID,
+            process.env.REACT_APP_TEMPLATE_ID,
+            form.current,
+            process.env.REACT_APP_PUBLIC_KEY
+          )
+            .then((result) => {
+              console.log(result.text);
+              setFormSuccess(true);
+            }, (error) => {
+              console.log(error.text);
+            });
+        
     }
 
     return (
-        <div className="center">
+        <FadeInSection className="center">
             <div className='contact-form'>
                 <h1>Contact Page</h1>
-                <form onSubmit={handleSubmit}>
+                <form ref={form} onSubmit={handleSubmit}>
 
                     {/* The warnings and success notifications */}
 
@@ -46,14 +59,14 @@ export default function Contact() {
 
                     <div className="mb-3">
                         <label htmlFor="name" className="form-label">Name</label>
-                        <input type="text" className="form-control" id="name" placeholder="Enter Your Name" value={name} onChange={(event) => setName(event.target.value)} />
+                        <input type="text" name='from_name' className="form-control" id="name" placeholder="Enter Your Name" value={name} onChange={(event) => setName(event.target.value)} />
                     </div>
 
                     {/* The Email Input */}
 
                     <div className="mb-3">
                         <label htmlFor="email" className="form-label">Email address</label>
-                        <input type="email" className="form-control" id="email" placeholder="email@gamil.com" aria-describedby="emailHelp" value={email} onChange={(event) => setEmail(event.target.value)} />
+                        <input type="email" name="from_email" className="form-control" id="email" placeholder="email@gamil.com" aria-describedby="emailHelp" value={email} onChange={(event) => setEmail(event.target.value)} />
                         <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                     </div>
 
@@ -61,11 +74,11 @@ export default function Contact() {
 
                     <div className="mb-3">
                         <label htmlFor="message" className="form-label">Message</label>
-                        <textarea className="form-control" id="message" placeholder="Write Message Here" value={message} onChange={(event) => setMessage(event.target.value)} />
+                        <textarea className="form-control" name="message" id="message" placeholder="Write Message Here" value={message} onChange={(event) => setMessage(event.target.value)} />
                     </div>
                     <button type="submit" className="btn btn-primary">Submit</button>
                 </form>
             </div>
-        </div>
+        </FadeInSection>
     );
 }

@@ -1,39 +1,24 @@
 import React from 'react';
-import '../styles/navbar.css'
+import * as FaIcons from 'react-icons/fi';
+import '../styles/navbar.css';
+import '../styles/sidebar.css';
+import FadeInSection from './helpers/FadeInProps';
 
-function NavTabs({ currentPage, handlePageChange }) {
+function NavTabs({ showSideBar }) {
+
+  
+
+
   return (
-    <nav className='nav-bar'>
-      <div className='title'>
-        Connor
+    <FadeInSection className='navbar'>
+      <div className='navbar-title'>
+        Connor Savoy
+        <hr />
+        <div className='bars'>
+          <FaIcons.FiMenu onClick={showSideBar} />
+        </div>
       </div>
-      <div className='links'>
-        <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-        >
-          Home
-        </a>
-        <a
-          href="#Portfolio"
-          onClick={() => handlePageChange('Portfolio')}
-        >
-          Portfolio
-        </a>
-        <a
-          href="#Resume"
-          onClick={() => handlePageChange('Resume')}
-        >
-          Resume
-        </a>
-        <a
-          href="#Contact"
-          onClick={() => handlePageChange('Contact')}
-        >
-          Contact
-        </a>
-      </div>
-    </nav>
+    </FadeInSection>
   );
 }
 

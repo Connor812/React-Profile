@@ -19,6 +19,15 @@
   width: 80%;
   padding: 20px;
   margin: 20px;
-  background-color: var(--background);
-  margin-bottom: 150px;
+  background-color: rgba(0, 0, 0, 0.372);
+}
+
+.resume-icon {
+  font-size: 100px;
+  color: white;
+  transition: 200ms;
+}
+
+.resume-icon:hover {
+  color: var(--purple);
 }

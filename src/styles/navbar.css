@@ -1,25 +1,20 @@
-:root {
-  --background: #26242261;
-  --black: #262422;
-  --blue: #3C92E6;
-  --white: #dbdbdb;
-  --grey: #393939;
-}
-
-
-.nav-bar {
+.navbar {
   width: 100%;
-  height: 130px;
-  background: grey;
+  height: auto;
+  padding: 20px;
+  background: none;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
-.title {
-  font-size: 60px;
-  margin: 20px
+.navbar-title {
+  width: 100%;
+  font-size: 40px;
+  margin: 0px 20px 0px 20px;
 }
+
+
 
 .links {
   display: flex;

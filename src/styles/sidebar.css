@@ -1,0 +1,151 @@
+/* This is for iPads and smaller */
+
+@media screen and (max-width: 1024px) {
+
+    .menu-bars {
+        font-size: 2rem;
+        background: none;
+    }
+
+    .nav-menu {
+        background-color: var(--purple);
+        width: 250px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        transition: 850ms;
+        z-index: 999;
+    }
+
+    .nav-menu.active {
+        left: 0;
+        transition: 350ms;
+    }
+
+    .nav-text {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 8px 0px 8px 0px;
+        list-style: none;
+        height: 60px;
+    }
+
+    .nav-text a {
+        text-decoration: none;
+        color: var(--white);
+        font-size: 25px;
+        width: 95%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 16px;
+        border-radius: 4px;
+        transition: 350ms;
+    }
+
+    .nav-text span {
+        margin-left: 16px;
+    }
+
+    .nav-text a:hover {
+        background-color: var(--light-purple);
+    }
+
+    .nav-menu-items {
+        width: 100%;
+    }
+
+    .navbar-toggle {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .bars {
+        display: flex;
+        font-size: 40px;
+        transition: 300ms;
+        display: block;
+    }
+
+    .bars:hover {
+        color: var(--purple);
+        cursor: pointer;
+    }
+
+    .exit-sidebar {
+        color: var(--white);
+        transition: 350ms;
+        border-radius: 5px;
+    }
+
+    .exit-sidebar:hover {
+        color: var(--light-purple);
+    }
+}
+
+/* This is for when you are on a computer screen ----------------> */
+
+@media screen and (min-width: 1025px) {
+    .nav-menu {
+        z-index: 1;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .nav-menu-items {
+        box-sizing: border-box;
+        justify-content: space-around;
+        width: 100%;
+        text-decoration: none;
+        color: var(--white);
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        padding: 0 16px;
+        border-radius: 4px;
+        transition: 350ms;
+        list-style-type: none;
+    }
+    
+    .nav-text a {
+        font-size: 25px;
+        text-decoration: none;
+        color: var(--white);
+    }
+    
+    .nav-text span {
+        margin-left: 10px;
+    }
+    
+    .nav-text a {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        transition: 350ms;
+    }
+
+    .nav-text a:hover {
+        color: var(--purple);
+    }
+    
+    .navbar-toggle {
+        display: none;
+    }
+    
+    .sidebar-hr {
+        display: none;
+    }
+
+    .bars {
+        display: none;
+    }    
+}
