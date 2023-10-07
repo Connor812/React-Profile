@@ -2,7 +2,7 @@
   "name": "React-Profile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://connor812.github.io/React-Profile",
+  "homepage": "https://connor812.github.io/React-Profile/",
   "dependencies": {
     "blurhash": "^2.0.5",
     "bootstrap": "^5.2.3",
