@@ -26,7 +26,7 @@ export default function PortfolioContainer() {
     const backgroundImgToLoad = new Image();
     console.log(backgroundImgToLoad)
 
-    backgroundImgToLoad.src = '/static/media/background.60a2be2b09e017245554.jpg';
+    backgroundImgToLoad.src = '/React-Profile/static/media/background.60a2be2b09e017245554.jpg';
 
     backgroundImgToLoad.onload = () => {
       console.log("loaded")
