@@ -35,8 +35,39 @@
     border-radius: 10px;
 }
 
-.education-title-container {
+.education-title {
     font-size: 100px;
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+    .education-container{ 
+        width: 100%;
+        height: auto;
+        background: none;
+    }
+
+    .education-title {
+        font-size: 70px;
+        margin-left: 20px;
+    }
+
+    .education-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+        gap: 0px;
+    }
+
+    .education-content {
+        width: 100%;
+        overflow-y: scroll;
+        padding: 20px;
+        margin: 0px;
+        height: 350px;
+        border: none;
+        scrollbar-width: thin;
+    }
 }

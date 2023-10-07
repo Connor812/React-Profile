@@ -8,9 +8,10 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import Main from './HomeComponents/Main';
+import Ctrl from './HomeComponents/Ctrl';
 import About from './HomeComponents/About';
 import Education from './HomeComponents/Education';
+import Experience from './HomeComponents/Experience';
 
 export default function Home() {
 
@@ -26,9 +27,10 @@ export default function Home() {
                     onSlideChange={() => console.log('slide change')}
                     className='carousel'
                 >
-                    <SwiperSlide><Main /></SwiperSlide>
+                    <SwiperSlide><Ctrl /></SwiperSlide>
                     <SwiperSlide><About /></SwiperSlide>
                     <SwiperSlide><Education /></SwiperSlide>
+                    <SwiperSlide><Experience /></SwiperSlide>
                 </Swiper>
             </section>
     );

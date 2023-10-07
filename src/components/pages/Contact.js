@@ -14,6 +14,9 @@ export default function Contact() {
     const form = useRef();
 
     const handleSubmit = (event) => {
+        setFormError(false);
+        setFormSuccess(false);
+
         event.preventDefault();
 
         // Check if all fields are filled in

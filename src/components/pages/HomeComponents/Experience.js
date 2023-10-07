@@ -1,23 +1,22 @@
-import React from 'react';
+import React from 'react'
+import '../../../styles/experience.css';
 
-import '../../../styles/education.css';
 
-
-function Education() {
-    return (
-        <div className='education-container'>
-            <div className='education-content-wrapper'>
-                <div className='education-title'>
-                    Education
+function Experience() {
+  return (
+    <div className='experience-container'>
+            <div className='experience-content-wrapper'>
+                <div className='experience-title'>
+                    Experience
 
                 </div>
-                <div className='education-content'>
+                <div className='experience-content'>
                     <div>
                         <p>
-                           I took the 6 month full time Full Stack Web Development at the University of Tornoto.
+                           I've been coding for just over a year now and I have plenty of projects I've worked on in this time. During my journey, I have definitely 
                         </p>
                         <p>
-                            Skills I have accuired:
+                            Skills I have acquired:
                             <ul>
                                 <li>
                                     HTML
@@ -49,7 +48,7 @@ function Education() {
                 </div>
             </div>
         </div>
-    )
+  )
 }
 
-export default Education;
+export default Experience

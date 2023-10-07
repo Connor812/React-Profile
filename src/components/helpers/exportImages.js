@@ -13,7 +13,7 @@ const projectData = [
         "deploy": "https://connor812.github.io/Space-Quest/",
         "url": project1,
         "hash": "L46kPE=*M|K4mPvxxGnlNfSiSKSK",
-        "desc": "This was my first project that I worked on in a group environment. It was an awesome expierence and I learned a lot about HTML, CSS, and JavaScript. As well as working with API's. But I also learned a lot about working with a group, communicating with your partners. As well as keeping a clean git repository with meaningful commit messages and organized branches"
+        "desc": "This was my first project that I worked on in a group environment. It was an awesome experience and I learned a lot about HTML, CSS, and JavaScript. As well as working with API's. But I also learned a lot about working with a group, communicating with your partners. As well as keeping a clean git repository with meaningful commit messages and organized branches"
     },
     {
         "name": "Cassie's Kitchen",

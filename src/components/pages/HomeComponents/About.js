@@ -5,7 +5,7 @@ function About() {
     return (
         <div className='about-container'>
             <div className='about-content-wrapper'>
-                <div className='about-title-container'>
+                <div className='about-title'>
                     About
 
                 </div>

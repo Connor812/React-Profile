@@ -1,17 +1,17 @@
-.about-container {
+.experience-container {
     display: flex;
     width: 100%;
     height: 100%;
     justify-content: space-around;
     align-items: center;
-    background-image: url('../assets/images/profile-img.JPG');
+    background-image: url('../assets/images/experience-img.jpg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     overflow: hidden;
 }
 
-.about-content-wrapper {
+.experience-content-wrapper {
     width: 100%;
     height: 100%;
     display: flex;
@@ -22,7 +22,7 @@
     padding: 50px;
 }
 
-.about-content {
+.experience-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -35,25 +35,25 @@
     border-radius: 10px;
 }
 
-.about-title {
+.experience-title {
     font-size: 100px;
     display: flex;
     flex-direction: column;
 }
 
 @media screen and (max-width: 1024px) {
-    .about-container{ 
+    .experience-container{ 
         width: 100%;
         height: auto;
         background: none;
     }
 
-    .about-title {
+    .experience-title {
         font-size: 70px;
         margin-left: 20px;
     }
 
-    .about-content-wrapper {
+    .experience-content-wrapper {
         display: flex;
         flex-direction: column;
         padding: 0px;
@@ -61,7 +61,7 @@
         gap: 0px;
     }
 
-    .about-content {
+    .experience-content {
         width: 100%;
         overflow-y: scroll;
         padding: 20px;
