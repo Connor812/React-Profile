@@ -7,7 +7,7 @@ import * as PiIcons from 'react-icons/pi';
 export const SideBarData = [
     {
         title: "Home",
-        path: '/',
+        path: '/React-Profile/',
         icon: <AiIcons.AiFillHome />,
         cName: "nav-text"
     },

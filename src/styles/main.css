@@ -1,7 +1,7 @@
 :root {
     --black: #000000;
-    --purple: #6320EE;
-    --light-purple: #8075FF;
+    --blue: #2fa7e3;
+    --light-blue: #7ec7fb;
     --white: #F8F0FB;
     --gray: #CAD5CA;
 
@@ -48,6 +48,21 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.btn {
+    color: var(--white);
+    background-color: var(--blue);
+    padding: 5px 30px;
+    border-radius: 10px;
+    border: none;
+    transition: 200ms;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: var(--light-blue);
 }
 
 @media screen and (max-width: 1300px) {

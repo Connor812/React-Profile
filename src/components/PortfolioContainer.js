@@ -38,12 +38,12 @@ export default function PortfolioContainer() {
 
   return (
     <>
-        <img id="background-img" className={imgLoaded ? "background-img loaded" : "background-img"} alt="Background"></img>
+      <img id="background-img" className={imgLoaded ? "background-img loaded" : "background-img"} alt="Background"></img>
       <Router>
         <NavTabs showSideBar={showSideBar} />
         <SideBar sidebar={sidebar} showSideBar={showSideBar} />
         <Routes>
-          <Route path="/" element={<Layout><Home /></Layout>} index={true} />
+          <Route path="/React-Profile" element={<Layout><Home /></Layout>} index={true} />
           <Route path="/projects" element={<Layout><Projects /></Layout>} />
           <Route path="/resume" element={<Layout><Resume /></Layout>} />
           <Route path="/contact_me" element={<Layout><Contact /></Layout>} />

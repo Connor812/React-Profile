@@ -59,21 +59,14 @@
     font-size: 100px;
 }
 
-.github-icon {
-    transition: 200ms;
-}
-
+.github-icon,
 .website-icon {
     transition: 200ms;
 }
 
-.github-icon:hover {
-    color: var(--purple);
-    cursor: pointer;
-}
-
+.github-icon:hover,
 .website-icon:hover {
-    color: var(--purple);
+    color: var(--blue);
     cursor: pointer;
 }
 
@@ -90,5 +83,12 @@
     }
     .project-title {
         justify-content: center;
+    }
+    .project-img {
+        display: none !important;
+    }
+    .website-icon,
+    .github-icon {
+        font-size: 80px;
     }
 }

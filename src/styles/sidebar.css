@@ -8,7 +8,7 @@
     }
 
     .nav-menu {
-        background-color: var(--purple);
+        background-color: var(--blue);
         width: 250px;
         height: 100vh;
         display: flex;
@@ -52,7 +52,7 @@
     }
 
     .nav-text a:hover {
-        background-color: var(--light-purple);
+        background-color: var(--light-blue);
     }
 
     .nav-menu-items {
@@ -75,7 +75,7 @@
     }
 
     .bars:hover {
-        color: var(--purple);
+        color: var(--blue);
         cursor: pointer;
     }
 
@@ -86,7 +86,7 @@
     }
 
     .exit-sidebar:hover {
-        color: var(--light-purple);
+        color: var(--light-blue);
     }
 }
 
@@ -134,7 +134,7 @@
     }
 
     .nav-text a:hover {
-        color: var(--purple);
+        color: var(--blue);
     }
     
     .navbar-toggle {

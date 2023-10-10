@@ -26,14 +26,22 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    height: 100%;
+    height: 700px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
     font-size: 25px;
     width: 500px;
+    padding: 30px;
     padding-left: 50px;
     border-left: 3px solid rgba(128, 128, 128, 0.478);
     background-color: rgba(0, 0, 0, 0.538);
     border-radius: 10px;
 }
+
+.experience-content::-webkit-scrollbar{
+    scrollbar-width: thin;
+    background-color: transparent;
+  }
 
 .experience-title {
     font-size: 100px;
@@ -41,8 +49,16 @@
     flex-direction: column;
 }
 
+.experience-content b {
+    color: var(--light-blue)
+}
+
+.projects-icon {
+    font-size: 35px;
+}
+
 @media screen and (max-width: 1024px) {
-    .experience-container{ 
+    .experience-container {
         width: 100%;
         height: auto;
         background: none;
