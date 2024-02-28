@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-Profile/static/css/main.941853b8.css",
+    "main.js": "/React-Profile/static/js/main.90a5cfe0.js",
+    "static/media/project-4.jpg": "/React-Profile/static/media/project-4.d2ec4c3c9de4ee7e82b7.jpg",
+    "static/media/project-5.jpg": "/React-Profile/static/media/project-5.41f61d005e89434247f0.jpg",
+    "static/media/project-1.jpg": "/React-Profile/static/media/project-1.3192f8b8cc2d7fd0bf62.jpg",
+    "static/media/project-2.jpg": "/React-Profile/static/media/project-2.6cdb10857eb4d8bc2e9c.jpg",
+    "static/media/project-3.jpg": "/React-Profile/static/media/project-3.74f2dd74ec97ecbcfac7.jpg",
+    "static/media/background.jpg": "/React-Profile/static/media/background.60a2be2b09e017245554.jpg",
+    "static/media/background-phone.jpg": "/React-Profile/static/media/background-phone.5de3fe8a4192cc9b9cfc.jpg",
+    "static/media/profile-img.JPG": "/React-Profile/static/media/profile-img.92798a8edb482333e61e.JPG",
+    "static/media/Connor's-Resume.docx": "/React-Profile/static/media/Connor's-Resume.0324af98e044a0824cbb.docx",
+    "static/media/project-6.jpg": "/React-Profile/static/media/project-6.46ac2cf9350d487d7901.jpg",
+    "static/media/experience-img.jpg": "/React-Profile/static/media/experience-img.dbd9302b7341367acf97.jpg",
+    "static/media/uot.webp": "/React-Profile/static/media/uot.76a04d36619ad970b573.webp",
+    "index.html": "/React-Profile/index.html",
+    "main.941853b8.css.map": "/React-Profile/static/css/main.941853b8.css.map",
+    "main.90a5cfe0.js.map": "/React-Profile/static/js/main.90a5cfe0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.941853b8.css",
+    "static/js/main.90a5cfe0.js"
+  ]
+}
